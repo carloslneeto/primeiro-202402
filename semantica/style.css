@@ -1,0 +1,27 @@
+body{
+    background-color: darkseagreen;
+    padding: 25px;
+  }
+  h1{
+    background-color: lightgreen;
+  }
+   nav{
+     background-color: seagreen;
+   }
+  
+   aside{
+     background-color: cadetblue;
+   }
+   article{
+     background-color: DarkSlateGray;
+   }
+   footer{
+     background-color: Aquamarine;
+   }
+  
+  
+  
+  title {
+      color: #5C6AC4;
+  }
+  
