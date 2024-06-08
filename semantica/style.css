@@ -1,27 +1,52 @@
-body{
-    background-color: darkseagreen;
-    padding: 25px;
-  }
-  h1{
-    background-color: lightgreen;
-  }
-   nav{
-     background-color: seagreen;
-   }
-  
-   aside{
-     background-color: cadetblue;
-   }
-   article{
-     background-color: DarkSlateGray;
-   }
-   footer{
-     background-color: Aquamarine;
-   }
-  
-  
-  
-  title {
-      color: #5C6AC4;
-  }
-  
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.title {
+  color: #5C6AC4;
+}
+
+header {
+  background-color: #1E8449; 
+  padding: 20px;
+  text-align: center;
+} 
+
+nav {
+  background-color: #52BE80;  
+  overflow: hidden;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  padding: 14px 16px;
+  display: block; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+}
+
+section {
+  background-color: #0E6251;
+  width: 60%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+aside {
+  background-color: #1B4F72;
+  width: 40%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: Aquamarine;
+  clear: both;
+}
